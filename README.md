@@ -1,4 +1,4 @@
-# hack-tools-python-perl-javascript-2017-2019
+# hack-tools-2017-2020
 
 [![Anonymousgif](https://i.giphy.com/media/2Y0ecuTsnAvZK/200.gif)
 [![Anonymous](https://img.hebus.com/hebus_2013/02/13/preview/1360720696_97766.jpg) 
@@ -6,38 +6,47 @@
 ------------------------------------------------------------------------------------------------------------------------
 
  [![Build Status](https://img.shields.io/badge/build-passing%20%2F%20moderate-yellow.svg)
- [![Python 2.6|2.7](https://img.shields.io/badge/python-2.7%20%7C%203.7-success.svg)
- [![website](https://img.shields.io/badge/website-https%3A%2F%2Fb653d2d4955a1d1903a89569eeda5968.netlify.com-red.svg)
- [![website](https://img.shields.io/badge/website%20build-moderate-orange.svg)
  
  ------------------------------------------------------------------------------------------------------------------------
  
- ## Description
+########################################################################
 
-website who contains software cracked : https://b653d2d4955a1d1903a89569eeda5968.netlify.com
-
-DeepNudes 2.0 premium software download : available soon
-
-download NSA Tools : https://b653d2d4955a1d1903a89569eeda5968.netlify.com
+- requirements : python 2, python 3, perl, java, ruby ...
 
 ########################################################################
 
-requirements :
+- run python file : py;python;python3 file.py
 
-install python 2.3 and 2.7, install perl, install java, install ruby ...
+- install requirements python : pip install -r filewithmodules.txt
 
-########################################################################
+- fix error in python "Microsoft Visual C++ 14.0 is required" : 
 
-run python cmd: py file.py
+1. install buils tools (https://visualstudio.microsoft.com/fr/downloads/) 
+2. download and execute
+3. select "c++ for desktop environment"
+4. leave the selection by default
+5. in "individual components" select windows 10 sdk
+6. select the latest version of all components mark has "build tools"
+7. select "c++ clang compiler for windows"
+8. once installation is complete search "x86_x64 Cross Tools Command Prompt" and execute 
+10. in this command prompt execute : pip install cmake
+11. execute : pip install wheel
+12. go to your repository with the cmd where the requirements.txt file is located
+13. execute : pip install -r requirements.txt
+14. end
 
-run perl: perl file.pl
+- run perl file : perl file.pl
 
-install perl modules: cpan install
+- install perl modules : cpan install (modules)
 
-run ruby : ruby file.rb
+- run ruby file : ruby file.rb
 
-ruby install : gem install (modules) and open Gemfile for view requirements
+- install ruby modules : gem install (modules) and open Gemfile for view requirements
 
-build go script : go build
+- build go script : go build (file.go)
 
-execute javascript : java -jar file.jar
+- execute java file : java -jar file.jar
+
+##########################################################################
+
+- password for files (.exe .7z .zip) : a
